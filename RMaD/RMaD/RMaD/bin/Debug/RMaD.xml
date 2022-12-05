@@ -38,6 +38,11 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="M:RMaD.RMaD.#ctor">
+            <summary>
+            Initializes components found in the login menu
+            </summary>
+        </member>
         <member name="M:RMaD.RMaD.btnSubmit_Click(System.Object,System.EventArgs)">
             <summary>
             On click will check to see if a login is valid. If the login is valid the
@@ -67,6 +72,22 @@
         <member name="M:RMaD.Program.Main">
             <summary>
             The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:RMaD.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:RMaD.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:RMaD.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
             </summary>
         </member>
         <member name="P:RMaD.UxForm.Shipments">
@@ -104,22 +125,6 @@
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
-            </summary>
-        </member>
-        <member name="T:RMaD.Properties.Resources">
-            <summary>
-              A strongly-typed resource class, for looking up localized strings, etc.
-            </summary>
-        </member>
-        <member name="P:RMaD.Properties.Resources.ResourceManager">
-            <summary>
-              Returns the cached ResourceManager instance used by this class.
-            </summary>
-        </member>
-        <member name="P:RMaD.Properties.Resources.Culture">
-            <summary>
-              Overrides the current thread's CurrentUICulture property for all
-              resource lookups using this strongly typed resource class.
             </summary>
         </member>
     </members>

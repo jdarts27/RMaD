@@ -10,7 +10,6 @@ namespace RMaD.Classes
     {
         private string _username;
         private string _password;
-        private string _token;
 
         public string Username { get; }
         public string Password { get; }
@@ -18,7 +17,7 @@ namespace RMaD.Classes
 
         public Authentication(String username, String password)
         {
-            this._username = username; 
+            this._username = username;
             this._password = password;
         }
 

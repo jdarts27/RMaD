@@ -13,3 +13,6 @@ C:\Users\Owner\source\repos\RMaD\RMaD\RMaD\RMaD\RMaD\obj\Debug\RMaD.UxForm.resou
 C:\Users\Owner\source\repos\RMaD\RMaD\RMaD\RMaD\RMaD\obj\Debug\RMaD.CreateAccount.resources
 C:\Users\Owner\source\repos\RMaD\RMaD\RMaD\RMaD\RMaD\bin\Debug\RMaD.xml
 C:\Users\Owner\source\repos\RMaD\RMaD\RMaD\RMaD\RMaD\obj\Debug\RMaD.AddShipment.resources
+C:\Users\Owner\source\repos\RMaD\RMaD\RMaD\RMaD\RMaD\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Owner\source\repos\RMaD\RMaD\RMaD\RMaD\RMaD\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Owner\source\repos\RMaD\RMaD\RMaD\RMaD\RMaD\obj\Debug\RMaD.csproj.CopyComplete

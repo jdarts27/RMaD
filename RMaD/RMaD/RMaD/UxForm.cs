@@ -8,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Net.Http;
+using System.Net.Http.Formatting;
 
 namespace RMaD
 {
@@ -135,5 +137,12 @@ namespace RMaD
             btnShipment.UseVisualStyleBackColor = true;
             flpShipments.Controls.Add(btnShipment);
         }
+
+        private void btnRefresh_Click(object sender, EventArgs e)
+        {
+            var pack = new Package();
+            pack.postShipment();
+        }
+
     }
 }
