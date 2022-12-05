@@ -9,6 +9,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Net.Http;
+using System.Net.Http.Formatting;
 
 namespace RMaD
 {
@@ -145,7 +147,7 @@ namespace RMaD
         /// <summary>
         /// Populate grid with shipments queried from database
         /// </summary>
-        /// <param </param>
+        /// <param> </param>
         private void populateDataGridView()
         {
             dataGridViewShipment.DataSource = null;
@@ -175,6 +177,12 @@ namespace RMaD
                 dataGridViewShipment.RowHeadersVisible = false;               
             }            
             databaseObject.CloseConnection();
+        }
+
+        private void btnRefresh_Click(object sender, EventArgs e)
+        {
+            var pack = new Package();
+            pack.postShipment();
         }
 
     }

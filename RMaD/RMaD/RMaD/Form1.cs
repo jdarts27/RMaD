@@ -13,6 +13,9 @@ namespace RMaD
 {
     public partial class RMaD : Form
     {
+        /// <summary>
+        /// Initializes components found in the login menu
+        /// </summary>
         public RMaD()
         {
             InitializeComponent();
