@@ -54,11 +54,15 @@ namespace RMaD
             this.btnShipmentMenu = new System.Windows.Forms.Button();
             this.pbIconImage = new System.Windows.Forms.PictureBox();
             this.btnRemove = new System.Windows.Forms.Button();
+            this.eventLog1 = new System.Diagnostics.EventLog();
+            this.dataGridViewShipment = new System.Windows.Forms.DataGridView();
             this.pnlShipments.SuspendLayout();
             this.pnlGroups.SuspendLayout();
             this.pnlReports.SuspendLayout();
             this.pnlUser.SuspendLayout();
             this.pnlSettings.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewShipment)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.elShipments)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbIconImage)).BeginInit();
             this.SuspendLayout();
@@ -68,6 +72,8 @@ namespace RMaD
             this.pnlShipments.Controls.Add(this.btnRemove);
             this.pnlShipments.Controls.Add(this.btnRefresh);
             this.pnlShipments.Controls.Add(this.flpShipments);
+            this.pnlShipments.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.pnlShipments.Controls.Add(this.dataGridViewShipment);
             this.pnlShipments.Controls.Add(this.btnAddShipment);
             this.pnlShipments.Controls.Add(this.lblShipments);
             this.pnlShipments.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -303,10 +309,20 @@ namespace RMaD
             this.btnRemove.Text = "Remove Shipment";
             this.btnRemove.UseVisualStyleBackColor = true;
             // 
+            // dataGridViewShipment
+            // 
+            this.dataGridViewShipment.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.dataGridViewShipment.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewShipment.Location = new System.Drawing.Point(31, 57);
+            this.dataGridViewShipment.Name = "dataGridViewShipment";
+            this.dataGridViewShipment.Size = new System.Drawing.Size(507, 496);
+            this.dataGridViewShipment.TabIndex = 2;
+            // 
             // UxForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(627, 672);
             this.Controls.Add(this.btnSettingsMenu);
             this.Controls.Add(this.btnUserMenu);
@@ -327,8 +343,8 @@ namespace RMaD
             this.pnlReports.ResumeLayout(false);
             this.pnlUser.ResumeLayout(false);
             this.pnlSettings.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.elShipments)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbIconImage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewShipment)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -357,5 +373,7 @@ namespace RMaD
         private System.Windows.Forms.ImageList iconImages;
         private System.Windows.Forms.PictureBox pbIconImage;
         private System.Windows.Forms.Button btnRemove;
+        private System.Diagnostics.EventLog eventLog1;
+        private System.Windows.Forms.DataGridView dataGridViewShipment;
     }
 }
